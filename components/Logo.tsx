@@ -18,7 +18,7 @@ const Logo: React.FC<LogoProps> = ({ width, height, background }) => {
         height: `${imageHeight}px`,
         backgroundImage: `url("/signature.png")`,
         backgroundPosition: "center",
-        backgroundSize: `${background ? "300%" : "150%"}`,
+        backgroundSize: `${background ? "200%" : "150%"}`,
         backgroundRepeat: "no-repeat",
       }}
       className="rounded-full cursor-pointer"

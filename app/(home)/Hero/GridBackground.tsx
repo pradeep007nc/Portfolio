@@ -9,17 +9,16 @@ export function GridBackground() {
       {/* Radial gradient for the container to give a faded look */}
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_15%,black)]"></div>
       <div className=" text-center font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 w-full flex-col flex  gap-[0.65rem]">
-        <p className="text-[0.850rem] uppercase">Based in Dandeli</p>
+        <p className="text-[0.850rem] uppercase">Based in Bangalore</p>
         <h1 className="m-auto w-[85vw] sm:w-[70vw] md:w-[60vw] lg:w-[48vw] text-3xl sm:text-5xl md:text-[3.40rem] lg:text-[3.8rem] text-white transition-all duration-300 ease-in-out font-smooth">
           Software Engineer
           <span className="text-[#3276FF]">
             {" "}
-            {` `}Specializing in Web & Mobile{" "}
+            {` `}Specialized in AWS cloud, Java full stack and SPA{" "}
           </span>
-          Applications
         </h1>
         <p className="px-3 text-[0.8rem] md:text-[1rem] font-semibold">
-          Hi, I&apos;m <span className="text-white font-bold">Vishnu</span>, I
+          Hi, I&apos;m <span className="text-white font-bold">Pradeep</span>, I
           create solutions across all layers of Full-Stack Applications
         </p>
         <div className="flex flex-row-reverse justify-center items-center gap-5 text-white">
@@ -36,7 +35,9 @@ export function GridBackground() {
                 <path d="M3 19H21V21H3V19ZM13 13.1716L19.0711 7.1005L20.4853 8.51472L12 17L3.51472 8.51472L4.92893 7.1005L11 13.1716V2H13V13.1716Z"></path>
               </svg>
             </div>
-            <span className="mb-[2px]">Resume</span>
+            <a href="Pradeep.pdf" download="Pradeep_Resume.pdf">
+               <span className="mb-[2px]">Resume</span>
+            </a>
           </div>
           <Link
             href={"/projects"}

@@ -22,7 +22,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Vishnu | Portfolio",
+  title: "Pradeep | Portfolio",
   description: "Checkout my Work here!",
 };
 

@@ -13,7 +13,7 @@ const Footer = () => {
       <Logo background />
       <div className="z-20 flex flex-col gap-2 items-center justify-center ml-2">
         <Socials />
-        <div className="font-extrabold">vishnuarjun512@gmail.com</div>
+        <div className="font-extrabold">pradeepnaidu2486@gmail.com</div>
         <span className="font-bold text-gray-500">Made by Me &copy; 2024</span>
       </div>
       <motion.div
